@@ -1,0 +1,365 @@
+source,relationship,target,document
+Marcus Hale,WORKS_FOR,Brightline Supply Co.,02_customer_contracts.md
+Dana Ruiz,WORKS_FOR,Brightline Supply Co.,02_customer_contracts.md
+Sam Okafor,WORKS_FOR,Brightline Supply Co.,02_customer_contracts.md
+Lena Brandt,WORKS_FOR,Brightline Supply Co.,03_refund_policy.md
+Tom Becker,WORKS_FOR,Brightline Supply Co.,03_refund_policy.md
+Aisha Rahman,WORKS_FOR,Brightline Supply Co.,03_refund_policy.md
+Luis Ortega,WORKS_FOR,Brightline Supply Co.,03_refund_policy.md
+Karen Liu,WORKS_FOR,Brightline Supply Co.,03_refund_policy.md
+Owen Pryce,WORKS_FOR,Brightline Supply Co.,02_customer_contracts.md
+Mei Tan,WORKS_FOR,Brightline Supply Co.,02_customer_contracts.md
+Dana Ruiz,REPORTS_TO,Marcus Hale,02_customer_contracts.md
+Sam Okafor,REPORTS_TO,Marcus Hale,02_customer_contracts.md
+Tom Becker,REPORTS_TO,Lena Brandt,03_refund_policy.md
+Aisha Rahman,REPORTS_TO,Lena Brandt,03_refund_policy.md
+Luis Ortega,REPORTS_TO,Lena Brandt,03_refund_policy.md
+Owen Pryce,MANAGES,Dayton warehouse,02_customer_contracts.md
+Brightline Supply Co.,OPERATES,Dayton warehouse,03_refund_policy.md
+Mei Tan,MANAGES,Newark warehouse,02_customer_contracts.md
+Brightline Supply Co.,OPERATES,Newark warehouse,03_refund_policy.md
+Acme,BUYS_FROM,Brightline Supply Co.,02_customer_contracts.md
+Greg Holt,WORKS_FOR,Acme,02_customer_contracts.md
+Priya Nandakumar,WORKS_FOR,Acme,02_customer_contracts.md
+Tina Morales,WORKS_FOR,Acme,02_customer_contracts.md
+Northpeak,BUYS_FROM,Brightline Supply Co.,02_customer_contracts.md
+Elena Novak,WORKS_FOR,Northpeak,02_customer_contracts.md
+Jonas Weber,WORKS_FOR,Northpeak,02_customer_contracts.md
+Orbis Foods,BUYS_FROM,Brightline Supply Co.,02_customer_contracts.md
+Daniel Price,WORKS_FOR,Orbis Foods,02_customer_contracts.md
+Marta Silva,WORKS_FOR,Orbis Foods,02_customer_contracts.md
+Halden Health,BUYS_FROM,Brightline Supply Co.,02_customer_contracts.md
+Paul Grant,WORKS_FOR,Halden Health,02_customer_contracts.md
+Ruth Adeyemi,WORKS_FOR,Halden Health,02_customer_contracts.md
+Veltra,BUYS_FROM,Brightline Supply Co.,02_customer_contracts.md
+Chris Yoon,WORKS_FOR,Veltra,02_customer_contracts.md
+BX-100,IN_LINE,Packaging,02_customer_contracts.md
+Dayton warehouse,STOCKS,BX-100,02_customer_contracts.md
+Newark warehouse,STOCKS,BX-100,02_customer_contracts.md
+BX-100-CP,IN_LINE,Packaging,02_customer_contracts.md
+Newark warehouse,STOCKS,BX-100-CP,02_customer_contracts.md
+BX-200,IN_LINE,Packaging,02_customer_contracts.md
+Dayton warehouse,STOCKS,BX-200,02_customer_contracts.md
+PW-50,IN_LINE,Packaging,02_customer_contracts.md
+Dayton warehouse,STOCKS,PW-50,02_customer_contracts.md
+TP-12,IN_LINE,Packaging,02_customer_contracts.md
+Dayton warehouse,STOCKS,TP-12,02_customer_contracts.md
+Newark warehouse,STOCKS,TP-12,02_customer_contracts.md
+CC-40,IN_LINE,Cold chain,02_customer_contracts.md
+Newark warehouse,STOCKS,CC-40,02_customer_contracts.md
+CC-80,IN_LINE,Cold chain,02_customer_contracts.md
+Dayton warehouse,STOCKS,CC-80,02_customer_contracts.md
+GP-5,IN_LINE,Cold chain,02_customer_contracts.md
+Dayton warehouse,STOCKS,GP-5,02_customer_contracts.md
+Newark warehouse,STOCKS,GP-5,02_customer_contracts.md
+PJ-3000,IN_LINE,Warehouse equipment,02_customer_contracts.md
+Dayton warehouse,STOCKS,PJ-3000,02_customer_contracts.md
+Newark warehouse,STOCKS,PJ-3000,02_customer_contracts.md
+SR-4,IN_LINE,Warehouse equipment,02_customer_contracts.md
+Newark warehouse,STOCKS,SR-4,02_customer_contracts.md
+LB-9,IN_LINE,Warehouse equipment,02_customer_contracts.md
+Dayton warehouse,STOCKS,LB-9,02_customer_contracts.md
+LR-9,IN_LINE,Warehouse equipment,02_customer_contracts.md
+Dayton warehouse,STOCKS,LR-9,02_customer_contracts.md
+BX-100-CP,VARIANT_OF,BX-100,02_customer_contracts.md
+CC-40,USED_WITH,GP-5,02_customer_contracts.md
+CC-80,USED_WITH,GP-5,02_customer_contracts.md
+CC-80,REPLACES,CC-60,02_customer_contracts.md
+LR-9,COMPATIBLE_WITH,LB-9,02_customer_contracts.md
+Refund Policy,REPLACES,Refund Policy v1,03_refund_policy.md
+Lena Brandt,OWNS,Refund Policy,03_refund_policy.md
+Refund Policy,HAS_SECTION,§1 Scope,03_refund_policy.md
+Refund Policy,HAS_SECTION,§2 Definitions,03_refund_policy.md
+Refund Policy,HAS_SECTION,§3 Late delivery,03_refund_policy.md
+Refund Policy,HAS_SECTION,§4.1 Damaged goods,03_refund_policy.md
+Refund Policy,HAS_SECTION,§4.2 Cold-chain damage,03_refund_policy.md
+Refund Policy,HAS_SECTION,§4.3 Custom-printed,03_refund_policy.md
+Refund Policy,HAS_SECTION,§5 Standard terms,03_refund_policy.md
+Refund Policy,HAS_SECTION,§6.1 Deadline,03_refund_policy.md
+Refund Policy,HAS_SECTION,§6.2 Approvals,03_refund_policy.md
+Refund Policy,HAS_SECTION,§7 Equipment warranty,03_refund_policy.md
+Refund Policy,HAS_SECTION,§8 Carrier claims,03_refund_policy.md
+§3 Late delivery,REFERS_TO,§6.1 Deadline,03_refund_policy.md
+§3 Late delivery,REFERS_TO,§6.2 Approvals,03_refund_policy.md
+§4.2 Cold-chain damage,COVERS,CC-40,03_refund_policy.md
+§4.2 Cold-chain damage,COVERS,CC-80,03_refund_policy.md
+§4.2 Cold-chain damage,COVERS,GP-5,03_refund_policy.md
+§4.3 Custom-printed,COVERS,BX-100-CP,03_refund_policy.md
+§5 Standard terms,REFERS_TO,§3 Late delivery,03_refund_policy.md
+§5 Standard terms,REFERS_TO,§4.1 Damaged goods,03_refund_policy.md
+§6.2 Approvals,APPROVER,Lena Brandt,03_refund_policy.md
+§7 Equipment warranty,COVERS,PJ-3000,03_refund_policy.md
+§7 Equipment warranty,COVERS,SR-4,03_refund_policy.md
+§7 Equipment warranty,COVERS,LB-9,03_refund_policy.md
+§8 Carrier claims,COVERS,SwiftFreight,03_refund_policy.md
+§8 Carrier claims,COVERS,NorthLine Logistics,03_refund_policy.md
+§8 Carrier claims,COVERS,ColdLink,03_refund_policy.md
+Karen Liu,ISSUES_PAYMENTS_UNDER,Refund Policy,03_refund_policy.md
+Acme,HAS_CONTRACT,C-12,02_customer_contracts.md
+Greg Holt,SIGNED,C-12,02_customer_contracts.md
+Marcus Hale,SIGNED,C-12,02_customer_contracts.md
+Dana Ruiz,ACCOUNT_MANAGER_OF,Acme,02_customer_contracts.md
+C-12,MANAGED_BY,Dana Ruiz,02_customer_contracts.md
+C-12,COVERS,BX-200,02_customer_contracts.md
+C-12,COVERS,PW-50,02_customer_contracts.md
+C-12,COVERS,LB-9,02_customer_contracts.md
+C-12,COVERS,LR-9,02_customer_contracts.md
+C-12,SHIPS_FROM,Dayton warehouse,02_customer_contracts.md
+C-12,USES_CARRIER,SwiftFreight,02_customer_contracts.md
+C-12,REFERS_TO,§3 Late delivery,02_customer_contracts.md
+C-12,REFERS_TO,§4.1 Damaged goods,02_customer_contracts.md
+Northpeak,HAS_CONTRACT,C-15,02_customer_contracts.md
+Elena Novak,SIGNED,C-15,02_customer_contracts.md
+Marcus Hale,SIGNED,C-15,02_customer_contracts.md
+Sam Okafor,ACCOUNT_MANAGER_OF,Northpeak,02_customer_contracts.md
+C-15,MANAGED_BY,Sam Okafor,02_customer_contracts.md
+C-15,COVERS,BX-100,02_customer_contracts.md
+C-15,COVERS,BX-100-CP,02_customer_contracts.md
+C-15,COVERS,PJ-3000,02_customer_contracts.md
+C-15,COVERS,SR-4,02_customer_contracts.md
+C-15,SHIPS_FROM,Newark warehouse,02_customer_contracts.md
+C-15,USES_CARRIER,NorthLine Logistics,02_customer_contracts.md
+C-15,REFERS_TO,§3 Late delivery,02_customer_contracts.md
+C-15,REFERS_TO,§4.1 Damaged goods,02_customer_contracts.md
+C-15,REFERS_TO,§4.3 Custom-printed,02_customer_contracts.md
+C-15,REFERS_TO,§7 Equipment warranty,02_customer_contracts.md
+Orbis Foods,HAS_CONTRACT,C-19,02_customer_contracts.md
+Daniel Price,SIGNED,C-19,02_customer_contracts.md
+Marcus Hale,SIGNED,C-19,02_customer_contracts.md
+Dana Ruiz,ACCOUNT_MANAGER_OF,Orbis Foods,02_customer_contracts.md
+C-19,MANAGED_BY,Dana Ruiz,02_customer_contracts.md
+C-19,COVERS,CC-80,02_customer_contracts.md
+C-19,COVERS,GP-5,02_customer_contracts.md
+C-19,COVERS,BX-200,02_customer_contracts.md
+C-19,SHIPS_FROM,Dayton warehouse,02_customer_contracts.md
+C-19,USES_CARRIER,ColdLink,02_customer_contracts.md
+C-19,REFERS_TO,§4.1 Damaged goods,02_customer_contracts.md
+C-19,REFERS_TO,§4.2 Cold-chain damage,02_customer_contracts.md
+Halden Health,HAS_CONTRACT,C-21,02_customer_contracts.md
+Paul Grant,SIGNED,C-21,02_customer_contracts.md
+Marcus Hale,SIGNED,C-21,02_customer_contracts.md
+Sam Okafor,ACCOUNT_MANAGER_OF,Halden Health,02_customer_contracts.md
+C-21,MANAGED_BY,Sam Okafor,02_customer_contracts.md
+C-21,COVERS,CC-40,02_customer_contracts.md
+C-21,COVERS,GP-5,02_customer_contracts.md
+C-21,SHIPS_FROM,Newark warehouse,02_customer_contracts.md
+C-21,USES_CARRIER,ColdLink,02_customer_contracts.md
+C-21,REFERS_TO,§3 Late delivery,02_customer_contracts.md
+C-21,REFERS_TO,§4.1 Damaged goods,02_customer_contracts.md
+C-21,REFERS_TO,§4.2 Cold-chain damage,02_customer_contracts.md
+C-19,OVERRIDES,§3 Late delivery,02_customer_contracts.md
+C-12 Amendment A1,AMENDS,C-12,02_customer_contracts.md
+C-12 Amendment A1,COVERS,PJ-3000,02_customer_contracts.md
+C-12 Amendment A1,REFERS_TO,§7 Equipment warranty,02_customer_contracts.md
+Greg Holt,SIGNED,C-12 Amendment A1,02_customer_contracts.md
+Marcus Hale,SIGNED,C-12 Amendment A1,02_customer_contracts.md
+Veltra,GOVERNED_BY,§5 Standard terms,02_customer_contracts.md
+Veltra,SHIPS_FROM,Dayton warehouse,02_customer_contracts.md
+Veltra,USES_CARRIER,SwiftFreight,02_customer_contracts.md
+#4812,FOR_CUSTOMER,Acme,01_support_tickets.md
+Priya Nandakumar,REPORTED,#4812,01_support_tickets.md
+#4812,OWNED_BY,Tom Becker,01_support_tickets.md
+#4812,ESCALATED_TO,Dana Ruiz,01_support_tickets.md
+#4812,ABOUT_ORDER,Order 7731,01_support_tickets.md
+Acme,PLACED,Order 7731,01_support_tickets.md
+Order 7731,CONTAINS,BX-200,01_support_tickets.md
+Order 7731,CONTAINS,PW-50,01_support_tickets.md
+Order 7731,BILLED_ON,INV-2310,01_support_tickets.md
+Order 7731,SHIPPED_FROM,Dayton warehouse,01_support_tickets.md
+Order 7731,CARRIED_BY,SwiftFreight,01_support_tickets.md
+#4812,UNDER_CONTRACT,C-12,01_support_tickets.md
+#4812,APPLIES,§3 Late delivery,01_support_tickets.md
+#4812,APPLIES,§6.2 Approvals,01_support_tickets.md
+#4812,APPLIES,§8 Carrier claims,01_support_tickets.md
+#4812,RAISED_CLAIM,CL-118,01_support_tickets.md
+CL-118,AGAINST,SwiftFreight,01_support_tickets.md
+#4815,FOR_CUSTOMER,Northpeak,01_support_tickets.md
+Jonas Weber,REPORTED,#4815,01_support_tickets.md
+#4815,OWNED_BY,Aisha Rahman,01_support_tickets.md
+#4815,ABOUT_ORDER,Order 7740,01_support_tickets.md
+Northpeak,PLACED,Order 7740,01_support_tickets.md
+Order 7740,CONTAINS,BX-100,01_support_tickets.md
+Order 7740,SHIPPED_FROM,Newark warehouse,01_support_tickets.md
+Order 7740,CARRIED_BY,NorthLine Logistics,01_support_tickets.md
+#4815,UNDER_CONTRACT,C-15,01_support_tickets.md
+#4815,APPLIES,§4.1 Damaged goods,01_support_tickets.md
+#4815,APPLIES,§8 Carrier claims,01_support_tickets.md
+#4815,RAISED_CLAIM,CL-121,01_support_tickets.md
+CL-121,AGAINST,NorthLine Logistics,01_support_tickets.md
+#4815,RESULTED_IN,Order 7749,01_support_tickets.md
+Northpeak,PLACED,Order 7749,01_support_tickets.md
+#4819,FOR_CUSTOMER,Acme,01_support_tickets.md
+Tina Morales,REPORTED,#4819,01_support_tickets.md
+#4819,OWNED_BY,Karen Liu,01_support_tickets.md
+#4819,ABOUT_ORDER,Order 7702,01_support_tickets.md
+Acme,PLACED,Order 7702,01_support_tickets.md
+Order 7702,CONTAINS,LB-9,01_support_tickets.md
+Order 7702,CONTAINS,LR-9,01_support_tickets.md
+Order 7702,BILLED_ON,INV-2291,01_support_tickets.md
+#4819,UNDER_CONTRACT,C-12,01_support_tickets.md
+#4823,FOR_CUSTOMER,Veltra,01_support_tickets.md
+Chris Yoon,REPORTED,#4823,01_support_tickets.md
+#4823,OWNED_BY,Luis Ortega,01_support_tickets.md
+#4823,ABOUT_ORDER,Order 7755,01_support_tickets.md
+Veltra,PLACED,Order 7755,01_support_tickets.md
+Order 7755,CONTAINS,BX-100,01_support_tickets.md
+Order 7755,CONTAINS,TP-12,01_support_tickets.md
+Order 7755,SHIPPED_FROM,Dayton warehouse,01_support_tickets.md
+Order 7755,CARRIED_BY,SwiftFreight,01_support_tickets.md
+#4823,APPLIES,§5 Standard terms,01_support_tickets.md
+#4830,FOR_CUSTOMER,Orbis Foods,01_support_tickets.md
+Marta Silva,REPORTED,#4830,01_support_tickets.md
+#4830,OWNED_BY,Aisha Rahman,01_support_tickets.md
+#4830,UNDER_CONTRACT,C-19,01_support_tickets.md
+#4834,FOR_CUSTOMER,Northpeak,01_support_tickets.md
+Jonas Weber,REPORTED,#4834,01_support_tickets.md
+#4834,OWNED_BY,Tom Becker,01_support_tickets.md
+#4834,ESCALATED_TO,Sam Okafor,01_support_tickets.md
+#4834,ABOUT_ORDER,Order 7761,01_support_tickets.md
+Northpeak,PLACED,Order 7761,01_support_tickets.md
+Order 7761,CONTAINS,PJ-3000,01_support_tickets.md
+Order 7761,SHIPPED_FROM,Newark warehouse,01_support_tickets.md
+Order 7761,CARRIED_BY,NorthLine Logistics,01_support_tickets.md
+#4834,UNDER_CONTRACT,C-15,01_support_tickets.md
+#4834,APPLIES,§3 Late delivery,01_support_tickets.md
+#4834,APPLIES,§6.2 Approvals,01_support_tickets.md
+#4834,APPLIES,§8 Carrier claims,01_support_tickets.md
+#4834,RELATED_TO,#4815,01_support_tickets.md
+#4834,RAISED_CLAIM,CL-124,01_support_tickets.md
+CL-124,AGAINST,NorthLine Logistics,01_support_tickets.md
+#4837,FOR_CUSTOMER,Orbis Foods,01_support_tickets.md
+Marta Silva,REPORTED,#4837,01_support_tickets.md
+#4837,OWNED_BY,Luis Ortega,01_support_tickets.md
+#4837,ESCALATED_TO,Dana Ruiz,01_support_tickets.md
+#4837,ABOUT_ORDER,Order 7766,01_support_tickets.md
+Orbis Foods,PLACED,Order 7766,01_support_tickets.md
+Order 7766,CONTAINS,CC-80,01_support_tickets.md
+Order 7766,CONTAINS,GP-5,01_support_tickets.md
+Order 7766,SHIPPED_FROM,Dayton warehouse,01_support_tickets.md
+Order 7766,CARRIED_BY,ColdLink,01_support_tickets.md
+#4837,UNDER_CONTRACT,C-19,01_support_tickets.md
+#4837,APPLIES,C-19,01_support_tickets.md
+#4837,APPLIES,§6.2 Approvals,01_support_tickets.md
+#4837,RESULTED_IN,CN-044,01_support_tickets.md
+#4838,FOR_CUSTOMER,Halden Health,01_support_tickets.md
+Ruth Adeyemi,REPORTED,#4838,01_support_tickets.md
+#4838,OWNED_BY,Aisha Rahman,01_support_tickets.md
+#4838,ABOUT_ORDER,Order 7770,01_support_tickets.md
+Halden Health,PLACED,Order 7770,01_support_tickets.md
+Order 7770,CONTAINS,CC-40,01_support_tickets.md
+Order 7770,SHIPPED_FROM,Newark warehouse,01_support_tickets.md
+Order 7770,CARRIED_BY,ColdLink,01_support_tickets.md
+#4838,UNDER_CONTRACT,C-21,01_support_tickets.md
+#4838,APPLIES,§4.2 Cold-chain damage,01_support_tickets.md
+#4838,APPLIES,§8 Carrier claims,01_support_tickets.md
+#4838,RAISED_CLAIM,CL-126,01_support_tickets.md
+CL-126,AGAINST,ColdLink,01_support_tickets.md
+#4838,RESULTED_IN,Order 7774,01_support_tickets.md
+Halden Health,PLACED,Order 7774,01_support_tickets.md
+#4840,FOR_CUSTOMER,Acme,01_support_tickets.md
+Priya Nandakumar,REPORTED,#4840,01_support_tickets.md
+#4840,OWNED_BY,Luis Ortega,01_support_tickets.md
+#4840,ABOUT_ORDER,Order 7718,01_support_tickets.md
+Acme,PLACED,Order 7718,01_support_tickets.md
+Order 7718,CONTAINS,PJ-3000,01_support_tickets.md
+#4840,UNDER_CONTRACT,C-12,01_support_tickets.md
+#4840,UNDER_CONTRACT,C-12 Amendment A1,01_support_tickets.md
+#4840,APPLIES,§7 Equipment warranty,01_support_tickets.md
+#4841,FOR_CUSTOMER,Veltra,01_support_tickets.md
+Chris Yoon,REPORTED,#4841,01_support_tickets.md
+#4841,OWNED_BY,Luis Ortega,01_support_tickets.md
+#4841,ABOUT_ORDER,Order 7771,01_support_tickets.md
+Veltra,PLACED,Order 7771,01_support_tickets.md
+Order 7771,CONTAINS,BX-200,01_support_tickets.md
+Order 7771,SHIPPED_FROM,Dayton warehouse,01_support_tickets.md
+Order 7771,CARRIED_BY,SwiftFreight,01_support_tickets.md
+#4841,APPLIES,§5 Standard terms,01_support_tickets.md
+#4841,APPLIES,§4.1 Damaged goods,01_support_tickets.md
+#4841,APPLIES,§6.2 Approvals,01_support_tickets.md
+#4841,APPLIES,§8 Carrier claims,01_support_tickets.md
+#4841,RELATED_TO,#4823,01_support_tickets.md
+#4841,RAISED_CLAIM,CL-129,01_support_tickets.md
+CL-129,AGAINST,SwiftFreight,01_support_tickets.md
+#4843,FOR_CUSTOMER,Northpeak,01_support_tickets.md
+Jonas Weber,REPORTED,#4843,01_support_tickets.md
+#4843,OWNED_BY,Aisha Rahman,01_support_tickets.md
+#4843,ESCALATED_TO,Sam Okafor,01_support_tickets.md
+#4843,ABOUT_ORDER,Order 7763,01_support_tickets.md
+Northpeak,PLACED,Order 7763,01_support_tickets.md
+Order 7763,CONTAINS,BX-100-CP,01_support_tickets.md
+Order 7763,SHIPPED_FROM,Newark warehouse,01_support_tickets.md
+Order 7763,CARRIED_BY,NorthLine Logistics,01_support_tickets.md
+#4843,UNDER_CONTRACT,C-15,01_support_tickets.md
+#4843,APPLIES,§4.3 Custom-printed,01_support_tickets.md
+#4843,RELATED_TO,#4815,01_support_tickets.md
+#4843,RESULTED_IN,Order 7779,01_support_tickets.md
+Northpeak,PLACED,Order 7779,01_support_tickets.md
+#4845,FOR_CUSTOMER,Halden Health,01_support_tickets.md
+Ruth Adeyemi,REPORTED,#4845,01_support_tickets.md
+#4845,OWNED_BY,Tom Becker,01_support_tickets.md
+#4845,ESCALATED_TO,Sam Okafor,01_support_tickets.md
+#4845,ABOUT_ORDER,Order 7777,01_support_tickets.md
+Halden Health,PLACED,Order 7777,01_support_tickets.md
+Order 7777,CONTAINS,CC-40,01_support_tickets.md
+Order 7777,CONTAINS,GP-5,01_support_tickets.md
+Order 7777,SHIPPED_FROM,Newark warehouse,01_support_tickets.md
+Order 7777,CARRIED_BY,ColdLink,01_support_tickets.md
+#4845,UNDER_CONTRACT,C-21,01_support_tickets.md
+#4845,APPLIES,§3 Late delivery,01_support_tickets.md
+#4845,APPLIES,§6.2 Approvals,01_support_tickets.md
+#4845,APPLIES,§8 Carrier claims,01_support_tickets.md
+#4845,RELATED_TO,#4838,01_support_tickets.md
+#4845,RAISED_CLAIM,CL-127,01_support_tickets.md
+CL-127,AGAINST,ColdLink,01_support_tickets.md
+#4845,RESULTED_IN,RF-3107,01_support_tickets.md
+#4847,FOR_CUSTOMER,Acme,01_support_tickets.md
+Priya Nandakumar,REPORTED,#4847,01_support_tickets.md
+#4847,OWNED_BY,Tom Becker,01_support_tickets.md
+#4847,ABOUT_ORDER,Order 7690,01_support_tickets.md
+Acme,PLACED,Order 7690,01_support_tickets.md
+Order 7690,CONTAINS,BX-200,01_support_tickets.md
+Order 7690,SHIPPED_FROM,Dayton warehouse,01_support_tickets.md
+Order 7690,CARRIED_BY,SwiftFreight,01_support_tickets.md
+#4847,UNDER_CONTRACT,C-12,01_support_tickets.md
+#4847,APPLIES,§3 Late delivery,01_support_tickets.md
+#4847,APPLIES,§6.1 Deadline,01_support_tickets.md
+#4849,FOR_CUSTOMER,Orbis Foods,01_support_tickets.md
+Marta Silva,REPORTED,#4849,01_support_tickets.md
+#4849,OWNED_BY,Luis Ortega,01_support_tickets.md
+#4849,ABOUT_ORDER,Order 7766,01_support_tickets.md
+#4849,UNDER_CONTRACT,C-19,01_support_tickets.md
+#4849,APPLIES,§4.2 Cold-chain damage,01_support_tickets.md
+#4849,RELATED_TO,#4837,01_support_tickets.md
+#4850,FOR_CUSTOMER,Northpeak,01_support_tickets.md
+Jonas Weber,REPORTED,#4850,01_support_tickets.md
+#4850,OWNED_BY,Luis Ortega,01_support_tickets.md
+#4850,ABOUT_ORDER,Order 7768,01_support_tickets.md
+Northpeak,PLACED,Order 7768,01_support_tickets.md
+Order 7768,CONTAINS,SR-4,01_support_tickets.md
+Order 7768,SHIPPED_FROM,Newark warehouse,01_support_tickets.md
+Order 7768,CARRIED_BY,NorthLine Logistics,01_support_tickets.md
+#4850,UNDER_CONTRACT,C-15,01_support_tickets.md
+#4850,APPLIES,§4.1 Damaged goods,01_support_tickets.md
+#4852,FOR_CUSTOMER,Acme,01_support_tickets.md
+Priya Nandakumar,REPORTED,#4852,01_support_tickets.md
+#4852,OWNED_BY,Aisha Rahman,01_support_tickets.md
+#4852,ABOUT_ORDER,Order 7780,01_support_tickets.md
+Acme,PLACED,Order 7780,01_support_tickets.md
+Order 7780,CONTAINS,LR-9,01_support_tickets.md
+#4852,UNDER_CONTRACT,C-12,01_support_tickets.md
+#4852,RELATED_TO,#4819,01_support_tickets.md
+Dana Ruiz,APPROVED,#4812,01_support_tickets.md
+Sam Okafor,APPROVED,#4834,01_support_tickets.md
+Dana Ruiz,APPROVED,CN-044,01_support_tickets.md
+Karen Liu,ISSUED,CN-044,01_support_tickets.md
+CN-044,APPLIED_TO,INV-2355,01_support_tickets.md
+Lena Brandt,APPROVED,#4841,01_support_tickets.md
+Sam Okafor,APPROVED,RF-3107,01_support_tickets.md
+Karen Liu,ISSUED,RF-3107,01_support_tickets.md
+Priya Nandakumar,REQUESTED_SPLIT,Order 7702,01_support_tickets.md
+Owen Pryce,ASSIGNED_TO,#4840,01_support_tickets.md
+Mei Tan,INVESTIGATED,#4850,01_support_tickets.md
+Marta Silva,REQUESTED_ADDRESS_CHANGE,12 Harbour Road,01_support_tickets.md
+Orbis Foods,DELIVERS_TO,12 Harbour Road,01_support_tickets.md
+#4852,ABOUT_ORDER,Order 7702,01_support_tickets.md
+Order 7718,COVERED_BY,C-12 Amendment A1,01_support_tickets.md

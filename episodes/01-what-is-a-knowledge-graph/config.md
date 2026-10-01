@@ -7,7 +7,7 @@ Fill this in from the knowledge base used in the screen recording, so viewers ca
 | Tool | GuidedMind.ai |
 | Plan | Free tier |
 | Knowledge graph | On |
-| Documents | `dataset/01_support_tickets.md`, `dataset/02_customer_contracts.md`, `dataset/03_refund_policy.md` |
+| Documents | the three files in `datasets/01-what-is-a-knowledge-graph/` (dataset v1) |
 | Chunking | TODO |
 | Embedding model | TODO |
 | Extraction model | TODO |

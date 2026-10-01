@@ -14,7 +14,7 @@ A knowledge graph stores the things in your data and how they connect, so an AI 
 ## Reproduce it
 
 1. Create a new knowledge base with the knowledge graph turned on.
-2. Upload the three files from [`dataset/`](../../dataset/).
+2. Upload the three files from [`datasets/01-what-is-a-knowledge-graph/`](../../datasets/01-what-is-a-knowledge-graph/).
 3. Let it build the graph, then open the graph view.
 4. Find the **Acme** node and open it: look at its properties and the passages that mention it.
 
@@ -42,10 +42,10 @@ Your relationship names may differ. What matters is that Acme is one node and th
 | Ticket #4812 links to Acme | The question starts from the ticket |
 | Contract C-12 links to Acme and to the refund policy | These are the hops the AI needs to walk |
 
-Then try question 3 from [`questions.md`](../../questions.md): **"Is Acme owed a refund for ticket #4812?"** It needs three hops: ticket → Acme → contract → policy.
+Then try question 3 from [`questions.md`](../../datasets/01-what-is-a-knowledge-graph/questions.md): **"Is Acme owed a refund for ticket #4812?"** It needs three hops: ticket → Acme → contract → policy.
 
 ## One thing to watch
 
 An LLM extracts the entities and relationships, so always check which nodes and edges it actually produced. Vector search stores chunks and their embeddings; links between them are only inferred at query time.
 
-**Next:** [02 · Knowledge Graph vs Regular RAG](../) (coming soon)
+**Next:** [02 · Knowledge Graph vs Regular RAG](../02-knowledge-graph-vs-regular-rag/) (uses a bigger dataset, v2)

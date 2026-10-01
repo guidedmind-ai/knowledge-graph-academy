@@ -1,0 +1,111 @@
+name,type
+12 Harbour Road,Address
+ColdLink,Carrier
+NorthLine Logistics,Carrier
+SwiftFreight,Carrier
+CL-118,CarrierClaim
+CL-121,CarrierClaim
+CL-124,CarrierClaim
+CL-126,CarrierClaim
+CL-127,CarrierClaim
+CL-129,CarrierClaim
+Brightline Supply Co.,Company
+C-12,Contract
+C-12 Amendment A1,Contract
+C-15,Contract
+C-19,Contract
+C-21,Contract
+CN-044,CreditNote
+Acme,Customer
+Halden Health,Customer
+Northpeak,Customer
+Orbis Foods,Customer
+Veltra,Customer
+INV-2291,Invoice
+INV-2310,Invoice
+INV-2355,Invoice
+Order 7690,Order
+Order 7702,Order
+Order 7718,Order
+Order 7731,Order
+Order 7740,Order
+Order 7749,Order
+Order 7755,Order
+Order 7761,Order
+Order 7763,Order
+Order 7766,Order
+Order 7768,Order
+Order 7770,Order
+Order 7771,Order
+Order 7774,Order
+Order 7777,Order
+Order 7779,Order
+Order 7780,Order
+Aisha Rahman,Person
+Chris Yoon,Person
+Dana Ruiz,Person
+Daniel Price,Person
+Elena Novak,Person
+Greg Holt,Person
+Jonas Weber,Person
+Karen Liu,Person
+Lena Brandt,Person
+Luis Ortega,Person
+Marcus Hale,Person
+Marta Silva,Person
+Mei Tan,Person
+Owen Pryce,Person
+Paul Grant,Person
+Priya Nandakumar,Person
+Ruth Adeyemi,Person
+Sam Okafor,Person
+Tina Morales,Person
+Tom Becker,Person
+Refund Policy,Policy
+Refund Policy v1,Policy
+§1 Scope,PolicySection
+§2 Definitions,PolicySection
+§3 Late delivery,PolicySection
+§4.1 Damaged goods,PolicySection
+§4.2 Cold-chain damage,PolicySection
+§4.3 Custom-printed,PolicySection
+§5 Standard terms,PolicySection
+§6.1 Deadline,PolicySection
+§6.2 Approvals,PolicySection
+§7 Equipment warranty,PolicySection
+§8 Carrier claims,PolicySection
+BX-100,Product
+BX-100-CP,Product
+BX-200,Product
+CC-40,Product
+CC-60,Product
+CC-80,Product
+GP-5,Product
+LB-9,Product
+LR-9,Product
+PJ-3000,Product
+PW-50,Product
+SR-4,Product
+TP-12,Product
+Cold chain,ProductLine
+Packaging,ProductLine
+Warehouse equipment,ProductLine
+RF-3107,Refund
+#4812,Ticket
+#4815,Ticket
+#4819,Ticket
+#4823,Ticket
+#4830,Ticket
+#4834,Ticket
+#4837,Ticket
+#4838,Ticket
+#4840,Ticket
+#4841,Ticket
+#4843,Ticket
+#4845,Ticket
+#4847,Ticket
+#4849,Ticket
+#4850,Ticket
+#4852,Ticket
+Dayton warehouse,Warehouse
+Newark warehouse,Warehouse
