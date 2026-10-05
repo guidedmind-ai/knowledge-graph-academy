@@ -4,7 +4,7 @@ Short video tutorials on knowledge graphs for AI agents, with everything you nee
 
 Every episode has **its own dataset folder**, so you always download exactly the files shown in the video. All datasets tell the same story (a fictional supplier, Brightline Supply Co., and its customers) and are small enough to fit a free tier.
 
-▶️ **Playlist:** {PLAYLIST_LINK}
+▶️ **Playlist:**  https://www.youtube.com/playlist?list=PLd2WVsxdD49M
 
 ---
 
