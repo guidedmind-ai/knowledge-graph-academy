@@ -2,7 +2,7 @@
 
 Short video tutorials on knowledge graphs for AI agents, with everything you need to reproduce each episode yourself.
 
-Every episode has **its own dataset folder**, so you always download exactly the files shown in the video. All datasets tell the same story (a fictional supplier, Brightline Supply Co., and its customers) and are small enough to fit a free tier.
+Every episode has **its own dataset folder**, so you always download exactly the files shown in the video. Most datasets tell the same story (a fictional supplier, Brightline Supply Co., and its customers); episode 4 uses a one-off escape-room story. All are small enough to fit a free tier.
 
 ▶️ **Playlist:**  https://www.youtube.com/playlist?list=PLd2WVsxdD49M
 
@@ -22,7 +22,7 @@ Every episode has **its own dataset folder**, so you always download exactly the
 | 1 | What Is a Knowledge Graph? | Concept | [`01-what-is-a-knowledge-graph`](episodes/01-what-is-a-knowledge-graph/) | [v1](datasets/01-what-is-a-knowledge-graph/) |
 | 2 | Knowledge Graph vs Regular RAG | Concept | [`02-knowledge-graph-vs-regular-rag`](episodes/02-knowledge-graph-vs-regular-rag/) | [v2](datasets/02-knowledge-graph-vs-regular-rag/) |
 | 3 | What Actually Happens to Your Documents Before an AI Can Use Them | Practical | [`03-what-happens-to-your-documents`](episodes/03-what-happens-to-your-documents/) | [v3](datasets/03-what-happens-to-your-documents/) |
-| 4 | How Does a Document Become a Graph? | Concept | coming soon | |
+| 4 | How Does a Document Become a Graph? | Concept | [`04-how-does-a-document-become-a-graph`](episodes/04-how-does-a-document-become-a-graph/) | [v4](datasets/04-how-does-a-document-become-a-graph/) |
 | 5 | What Changes When You Switch From Plain RAG to a Graph? | Practical | coming soon | |
 | 6 | What Is Entity Resolution and Why Does It Break Your Graph? | Concept | coming soon | |
 | 7 | How Do You Know if Your Retrieval Is Any Good? | Practical | coming soon | |
@@ -37,6 +37,7 @@ Every episode has **its own dataset folder**, so you always download exactly the
 | [v1](datasets/01-what-is-a-knowledge-graph/) | Episode 1 | 6 tickets, 3 contracts, refund policy §1–6 | The starting point: one customer (Acme), one contract, one policy chain |
 | [v2](datasets/02-knowledge-graph-vs-regular-rag/) | Episode 2 onward | 16 tickets, 4 contracts + 1 amendment, refund policy §1–8, reference graph (110 entities, 364 relationships) | People, orders, products, carriers and approvals on every ticket, so multi-hop questions have something to walk |
 | [v3](datasets/03-what-happens-to-your-documents/) | Episode 3 onward | 16 tickets, 4 contracts + 1 amendment, refund policy §1–8, as 13-page PDFs | Same content as v2, but delivered as PDFs with a running header and footer on every page — the preprocessing test |
+| [v4](datasets/04-how-does-a-document-become-a-graph/) | Episode 4 | 4 documents (postman's map, letter, floor plan, diary), reference graph (30 entities, 42 relationships) | A different story: an escape room ("the knock at the door") — the data *is* the story, used to show how a document becomes a graph |
 
 The files are connected on purpose. Most answers need more than one hop: to decide whether Acme is owed a refund for ticket #4812 you go ticket → Acme → contract C-12 → refund policy section 3. That's the kind of question a knowledge graph is built for.
 
@@ -60,7 +61,7 @@ knowledge-graph-academy/
         └── graph/         # reference graph (from v2)
 ```
 
-Each episode gets its own dataset folder, even when the data hasn't changed from the episode before, so you never have to work out which version a video used.
+Each episode gets its own dataset folder, even when the data hasn't changed from the episode before, so you never have to work out which version a video used. Episode 4's dataset is the one exception to the Brightline story — it's a self-contained escape room, so its files are different.
 
 ## License
 

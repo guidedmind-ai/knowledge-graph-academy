@@ -1,0 +1,43 @@
+source,relation,target,document
+Mr Bell,WORKS_AT,Larkfield Post Office,01_post_round_map.md
+Mr Bell,DELIVERS_ON,Saturday,01_post_round_map.md
+Mr Bell,DELIVERS_TO,Lark Lane,01_post_round_map.md
+Larkfield Post Office,ON,Mill Road,01_post_round_map.md
+Rowe's Bakery,ON,Mill Road,01_post_round_map.md
+Station Inn,ON,Mill Road,01_post_round_map.md
+Lark Lane,MEETS,Mill Road,01_post_round_map.md
+Lark Lane,LEADS_TO,Larkfield Park,01_post_round_map.md
+Mill Road,IN,Larkfield,01_post_round_map.md
+Lark Lane,IN,Larkfield,01_post_round_map.md
+Larkfield Park,IN,Larkfield,01_post_round_map.md
+No. 10 Lark Lane,ON,Lark Lane,01_post_round_map.md
+No. 12 Lark Lane,ON,Lark Lane,01_post_round_map.md
+No. 14 Lark Lane,ON,Lark Lane,01_post_round_map.md
+birthday parcel,DELIVERED_TO,No. 12 Lark Lane,01_post_round_map.md
+Grandma Rose,LIVES_AT,Seaview Cottage,02_letter.md
+Seaview Cottage,IN,Brighton,02_letter.md
+Grandma Rose,GRANDMOTHER_OF,Tom Hale,02_letter.md
+Grandma Rose,SENT,birthday parcel,02_letter.md
+birthday parcel,FOR,Tom Hale,02_letter.md
+Mr Bell,BRINGS,birthday parcel,02_letter.md
+Mr Bell,WEARS,blue cap,02_letter.md
+Mr Bell,COMES_ON,Saturday,02_letter.md
+Margaret Hale,MOTHER_OF,Tom Hale,02_letter.md
+Biscuit,PET_OF,Tom Hale,02_letter.md
+hall,PART_OF,No. 12 Lark Lane,03_floor_plan.md
+parlour,PART_OF,No. 12 Lark Lane,03_floor_plan.md
+kitchen,PART_OF,No. 12 Lark Lane,03_floor_plan.md
+parents' room,PART_OF,No. 12 Lark Lane,03_floor_plan.md
+Tom's room,PART_OF,No. 12 Lark Lane,03_floor_plan.md
+front door,PART_OF,No. 12 Lark Lane,03_floor_plan.md
+Tom's room,BELONGS_TO,Tom Hale,03_floor_plan.md
+window seat,IN,Tom's room,03_floor_plan.md
+Grandpa's secret drawer,UNDER,window seat,03_floor_plan.md
+man in a blue cap,WEARS,blue cap,04_diary.md
+man in a blue cap,KNOCKED_AT,front door,04_diary.md
+man in a blue cap,CAME_ON,Saturday,04_diary.md
+Tom Hale,LOCKED,front door,04_diary.md
+Tom Hale,HID,key,04_diary.md
+key,HIDDEN_IN,Grandpa's secret drawer,04_diary.md
+key,OPENS,front door,04_diary.md
+Margaret Hale,AT_MARKET_ON,Saturday,04_diary.md
